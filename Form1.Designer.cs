@@ -62,10 +62,10 @@
             // maskedTextBox2
             // 
             this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.maskedTextBox2.Location = new System.Drawing.Point(72, 64);
-            this.maskedTextBox2.Mask = "00:00";
+            this.maskedTextBox2.Location = new System.Drawing.Point(50, 61);
+            this.maskedTextBox2.Mask = "00:00:00";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(89, 45);
+            this.maskedTextBox2.Size = new System.Drawing.Size(133, 45);
             this.maskedTextBox2.TabIndex = 7;
             this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
             this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
@@ -80,19 +80,19 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "стоп";
+            this.button2.Text = "Cтоп";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.label2.Location = new System.Drawing.Point(179, 64);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.label2.Location = new System.Drawing.Point(43, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 46);
+            this.label2.Size = new System.Drawing.Size(149, 39);
             this.label2.TabIndex = 11;
-            this.label2.Text = "00:00";
+            this.label2.Text = "00:00:00";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // timer2
@@ -103,10 +103,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(331, 154);
+            this.ClientSize = new System.Drawing.Size(229, 154);
+            this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";

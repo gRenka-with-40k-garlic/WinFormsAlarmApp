@@ -59,7 +59,7 @@ namespace WinFormsAlarmApp
             }
             else if (b == true)
             {
-                label2.Text = "00:00";
+                label2.Text = "00:00:00";
                 timer2.Stop();
                 maskedTextBox2.Visible = true;
                 button1.Text = "Завести будильник";
@@ -85,7 +85,7 @@ namespace WinFormsAlarmApp
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (label1.Text == label2.Text + ":00")
+            if (label1.Text == label2.Text)
             {
                 button2.Enabled = true;
                 sp.Play();
