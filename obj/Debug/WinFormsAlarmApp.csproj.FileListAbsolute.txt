@@ -9,3 +9,15 @@ P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp\bin\Debug\WinF
 P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp\bin\Debug\WinFormsAlarmApp.pdb
 P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp\obj\Debug\WinFormsAlarmApp.exe
 P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp\obj\Debug\WinFormsAlarmApp.pdb
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\bin\Debug\WinFormsAlarmApp.exe.config
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\bin\Debug\WinFormsAlarmApp.exe
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\bin\Debug\WinFormsAlarmApp.pdb
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.csproj.AssemblyReference.cache
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.csproj.SuggestedBindingRedirects.cache
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.Form1.resources
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.Properties.Resources.resources
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.csproj.GenerateResource.cache
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.csproj.CoreCompileInputs.cache
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.exe
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.pdb
+P:\gennady_documents\Coding tools\VS-projects(C)\WinFormsAlarmApp — копия (2)\obj\Debug\WinFormsAlarmApp.Form2.resources

@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 using System.Reflection.Emit;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Diagnostics;
 
 namespace WinFormsAlarmApp
 {
@@ -17,6 +19,16 @@ namespace WinFormsAlarmApp
         Timer timer01 = new Timer();
         SoundPlayer sp = new SoundPlayer("P:\\gennady_documents\\Coding tools\\VS-projects(C)\\WinFormsAlarmApp\\Alarm.wav");
         bool b = false;
+
+        private string Hour;
+        private string Min;
+        private string Sec;
+
+        private string HourNow;
+        private string MinNow;
+        private string SecNow;
+
+
 
         public Form1()
         {
@@ -29,6 +41,8 @@ namespace WinFormsAlarmApp
             timer01.Interval = 1000;
             timer01.Tick += new EventHandler(timer1_Tick);
             timer01.Start();
+
+
 
         }
 
@@ -49,6 +63,13 @@ namespace WinFormsAlarmApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            /*
+            if (maskedTextBox2.Text == null || label2.Text == null)
+            {
+                MessageBox.Show("Данные не введены");
+            }
+            else 
+            */
             if (b == false)
             {
                 label2.Text = maskedTextBox2.Text;
@@ -79,7 +100,17 @@ namespace WinFormsAlarmApp
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label1.Text = DateTime.Now.Hour.ToString("00") + ":" + DateTime.Now.Minute.ToString("00") + ":" + DateTime.Now.Second.ToString("00");
+            //label1.Text = DateTime.Now.Hour.ToString("00") + ":" + DateTime.Now.Minute.ToString("00") + ":" + DateTime.Now.Second.ToString("00");
+            //label1.Text = DateTime.Now.ToString("HH:mm:ss");
+
+            HourNow = DateTime.Now.Hour.ToString("00");
+            MinNow = DateTime.Now.Minute.ToString("00");
+            SecNow = DateTime.Now.Second.ToString("00");
+
+            //before the truth to set u free я устала пиздец 
+
+            label1.Text = HourNow +":"+ MinNow +":"+ SecNow;
+
         }
 
 
@@ -90,6 +121,13 @@ namespace WinFormsAlarmApp
                 button2.Enabled = true;
                 sp.Play();
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
+
         }
     }
 }
